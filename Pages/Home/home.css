@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.home__navbar{
+    
+    background:linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(0, 128, 0, 1) 100%);
+    padding:20px;
+
+}
+
+nav{
+    max-width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:40px;
+    color:white;
+    cursor:pointer;
+
+}
+
+.links{
+    width:60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CTA{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly; 
+    margin-left:100px;
+}
+
+.CTA > h3{
+    border:1px solid rgb(91, 169, 220);
+    background-color: rgb(0, 255, 123);
+    border-radius: 10px;
+    padding:4px;
+}
